@@ -1,0 +1,9 @@
+C:\Users\Hank\source\repos\DotNetCoreBlog\DotNetBlog,Model\obj\Debug\netcoreapp1.0\DotNetBlog,Model.csproj.CoreCompileInputs.cache
+C:\Users\Hank\source\repos\DotNetCoreBlog\DotNetBlog,Model\obj\Debug\netcoreapp1.0\DotNetBlog,Model.AssemblyInfoInputs.cache
+C:\Users\Hank\source\repos\DotNetCoreBlog\DotNetBlog,Model\obj\Debug\netcoreapp1.0\DotNetBlog,Model.AssemblyInfo.cs
+C:\Users\Hank\source\repos\DotNetCoreBlog\DotNetBlog,Model\bin\Debug\netcoreapp1.0\DotNetBlog.Model.deps.json
+C:\Users\Hank\source\repos\DotNetCoreBlog\DotNetBlog,Model\bin\Debug\netcoreapp1.0\DotNetBlog.Model.dll
+C:\Users\Hank\source\repos\DotNetCoreBlog\DotNetBlog,Model\bin\Debug\netcoreapp1.0\DotNetBlog.Model.pdb
+C:\Users\Hank\source\repos\DotNetCoreBlog\DotNetBlog,Model\obj\Debug\netcoreapp1.0\DotNetBlog.Model.dll
+C:\Users\Hank\source\repos\DotNetCoreBlog\DotNetBlog,Model\obj\Debug\netcoreapp1.0\DotNetBlog.Model.pdb
+C:\Users\Hank\source\repos\DotNetCoreBlog\DotNetBlog,Model\obj\Debug\netcoreapp1.0\DotNetBlog,Model.csprojResolveAssemblyReference.cache

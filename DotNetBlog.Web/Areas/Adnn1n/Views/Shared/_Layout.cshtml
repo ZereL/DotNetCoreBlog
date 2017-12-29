@@ -1,0 +1,33 @@
+﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DotNetBlog</title>
+    <link href="~/layui/css/layui.css" rel="stylesheet" />
+    <script src="~/layui/layui.js"></script>
+    <style>
+        .layui-form select {
+            display: block;
+            border: 1px solid #e6e6e6;
+            height: 38px;
+            line-height: 38px;
+            min-width: 100px;
+        }
+
+        .layui-textarea {
+            min-height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; 2017 - DotNetBlog</p>
+        </footer>
+    </div>
+</body>
+</html>

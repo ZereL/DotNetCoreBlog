@@ -1,0 +1,12 @@
+﻿15/11/2017
+Project Architecture complete.
+Database Design
+16/11/2017
+Dapper-CRUD In Dal 
+17/11/2017
+
+23/11/17
+做完查询, 视频28:28; 忘记return cond 排了好久错
+
+28/11/17
+treelist 显示不出来。视频73:11

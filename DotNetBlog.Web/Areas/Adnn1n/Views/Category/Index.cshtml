@@ -1,0 +1,192 @@
+﻿
+<blockquote class="layui-elem-quote">Category Management</blockquote>
+<div style="padding:10px;">
+    <table class="layui-table">
+        <tr>
+            <td style="width:200px; vertical-align:top;">
+                <ul id="tree1"></ul>
+            </td>
+            <td>
+                <fieldset class="layui-elem-field layui-field-title">
+                    <legend>Add</legend>
+                    <div class="layui-form">
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">Parent Category</label>
+                            <div class="layui-input-inline" style="height:38px; line-height:38px;">
+                                <span id="add_pname"></span>
+                                <button type="button" class="layui-btn layui-btn-small layui-btn-normal" onclick="setTop()">Make to category</button>
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">Category Name</label>
+                            <div class="layui-input-inline">
+                                <input id="add_caname" type="text" class="layui-input" />
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">&nbsp;</label>
+                            <div class="layui-input-inline">
+                                <button onclick="add()" type="button" class="layui-btn"><i class="layui-icon">&#xe654;</i>Add</button>
+                                <input type="hidden" id="add_pid" value="0" />
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="layui-elem-field layui-field-title">
+                    <legend>Edit</legend>
+                    <div class="layui-form">
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">Parent category</label>
+                            <div class="layui-input-inline" style="height:38px; line-height:38px;">
+                                <select id="mod_pid">
+                                    <option value="0">Top category</option>
+                                    @foreach (DotNetBlog.Model.Category ca in ViewBag.calist)
+                                    {
+                                        <option value="@ca.Id">@ca.CaName</option>
+                                    }
+                                </select>
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">Category name</label>
+                            <div class="layui-input-inline">
+                                <input id="mod_caname" type="text" class="layui-input" />
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">&nbsp;</label>
+                            <div class="layui-input-inline">
+                                <button onclick="mod()" type="button" class="layui-btn"><i class="layui-icon">&#xe642;</i>Edit</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="layui-elem-field layui-field-title">
+                    <legend>Delete</legend>
+                    <div class="layui-form">
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">Seleted Category</label>
+                            <div id="del_caname" class="layui-input-inline" style="height:38px; line-height:38px;">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">&nbsp;</label>
+                            <div class="layui-input-inline">
+                                <button onclick="del()" type="button" class="layui-btn layui-btn-danger"><i class="layui-icon">&#xe640;</i>Delete</button>
+                                <input type="hidden" id="del_id" value="0" />
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </td>
+        </tr>
+    </table>
+</div>
+<script>
+    layui.use(['tree', 'layer'], function(){
+        var layer = layui.layer
+        ,$ = layui.jquery;
+
+        layui.tree({
+            elem: '#tree1' //Element
+          ,target: '_blank' 
+          ,click: function(item){ 
+
+              $('#del_caname').text(item.name);
+              $('#del_id').val(item.id);
+
+              $('#add_pname').text(item.name);
+              $('#add_pid').val(item.id);
+
+              $('#mod_caname').val(item.name);
+              $('#mod_pid').val(item.pid);
+          }
+          ,nodes: @Html.Raw(ViewBag.nodejson)
+        });
+    });
+
+    /*Delete*/
+    function del(){
+        layui.use(['layer'], function(){
+            var layer = layui.layer
+            ,$ = layui.jquery;
+
+            var id = $('#del_id').val();
+
+            if (id=="0") {
+                layer.msg("choose the category you want to delete！");
+                return;
+            }
+
+            layer.confirm('Delete？',function(){
+                var url = "/Adnn1n/Category/Del/"+id;
+                $.post(url,function(data){
+                    layer.alert(data,function(){location.reload();})
+                });
+            })
+        });
+
+    }
+
+
+    /*设为顶级分类*/
+    function setTop(){
+        layui.use('layer',function(){
+            var layer = layui.layer
+            ,$ = layui.jquery;
+
+            $('#add_pname').text('');
+            $('#add_pid').val("0");
+        })
+
+    }
+
+    /*添加分类*/
+    function add(){
+        layui.use(['layer'], function(){
+            var layer = layui.layer
+            ,$ = layui.jquery;
+
+            var pid  = $('#add_pid').val();
+            var caname = $("#add_caname").val();
+            if (caname == '') {
+                layer.msg("type new category name！");
+                return;
+            }
+            var postdata = {pid:pid, caname:caname};
+            var url = "/Adnn1n/Category/Add";
+            $.post(url,postdata,function(json){
+                if (json.status=="y") {
+                    layer.alert(json.info,function(){location.reload();});
+                }else {
+                    layer.alert(json.info);
+                }
+            },'json');
+        });
+    }
+
+    /*编辑分类*/
+    function mod(){
+        layui.use(['layer'], function(){
+            var layer = layui.layer
+            ,$ = layui.jquery;
+
+            var caname = $('#mod_caname').val();
+            var pid = $('#mod_pid').val();
+            var id = $('#del_id').val();
+            var postdata={pid:pid,caname:caname,id:id};
+
+            var url = "/Adnn1n/Category/Mod";
+            $.post(url,postdata,function(json){
+                if (json.status=="y") {
+                    layer.alert(json.info,function(){location.reload();});
+                }else {
+                    layer.alert(json.info);
+                }
+            },'json');
+
+        });
+
+    }
+</script>

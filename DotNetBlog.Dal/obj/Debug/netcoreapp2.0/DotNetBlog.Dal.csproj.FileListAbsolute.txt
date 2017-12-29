@@ -1,0 +1,9 @@
+c:\users\hank\source\repos\DotNetCoreBlog\DotNetBlog.Dal\bin\Debug\netcoreapp2.0\DotNetBlog.Dal.deps.json
+c:\users\hank\source\repos\DotNetCoreBlog\DotNetBlog.Dal\bin\Debug\netcoreapp2.0\DotNetBlog.Dal.dll
+c:\users\hank\source\repos\DotNetCoreBlog\DotNetBlog.Dal\bin\Debug\netcoreapp2.0\DotNetBlog.Dal.pdb
+c:\users\hank\source\repos\DotNetCoreBlog\DotNetBlog.Dal\obj\Debug\netcoreapp2.0\DotNetBlog.Dal.csprojResolveAssemblyReference.cache
+c:\users\hank\source\repos\DotNetCoreBlog\DotNetBlog.Dal\obj\Debug\netcoreapp2.0\DotNetBlog.Dal.csproj.CoreCompileInputs.cache
+c:\users\hank\source\repos\DotNetCoreBlog\DotNetBlog.Dal\obj\Debug\netcoreapp2.0\DotNetBlog.Dal.AssemblyInfoInputs.cache
+c:\users\hank\source\repos\DotNetCoreBlog\DotNetBlog.Dal\obj\Debug\netcoreapp2.0\DotNetBlog.Dal.AssemblyInfo.cs
+c:\users\hank\source\repos\DotNetCoreBlog\DotNetBlog.Dal\obj\Debug\netcoreapp2.0\DotNetBlog.Dal.dll
+c:\users\hank\source\repos\DotNetCoreBlog\DotNetBlog.Dal\obj\Debug\netcoreapp2.0\DotNetBlog.Dal.pdb

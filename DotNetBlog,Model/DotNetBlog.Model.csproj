@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <AssemblyName>DotNetBlog.Model</AssemblyName>
+    <RootNamespace>DotNetBlog.Model</RootNamespace>
+  </PropertyGroup>
+
+</Project>
