@@ -9,3 +9,14 @@ C:\Users\Hank\source\repos\DotNetCoreBlog\DotNetBlog.Dal\obj\Debug\netcoreapp1.0
 C:\Users\Hank\source\repos\DotNetCoreBlog\DotNetBlog.Dal\obj\Debug\netcoreapp1.0\DotNetBlog.Dal.AssemblyInfo.cs
 C:\Users\Hank\source\repos\DotNetCoreBlog\DotNetBlog.Dal\obj\Debug\netcoreapp1.0\DotNetBlog.Dal.dll
 C:\Users\Hank\source\repos\DotNetCoreBlog\DotNetBlog.Dal\obj\Debug\netcoreapp1.0\DotNetBlog.Dal.pdb
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog.Dal\bin\Debug\netcoreapp1.0\DotNetBlog.Dal.deps.json
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog.Dal\bin\Debug\netcoreapp1.0\DotNetBlog.Dal.dll
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog.Dal\bin\Debug\netcoreapp1.0\DotNetBlog.Dal.pdb
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog.Dal\bin\Debug\netcoreapp1.0\DotNetBlog.Model.dll
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog.Dal\bin\Debug\netcoreapp1.0\DotNetBlog.Model.pdb
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog.Dal\obj\Debug\netcoreapp1.0\DotNetBlog.Dal.csprojResolveAssemblyReference.cache
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog.Dal\obj\Debug\netcoreapp1.0\DotNetBlog.Dal.csproj.CoreCompileInputs.cache
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog.Dal\obj\Debug\netcoreapp1.0\DotNetBlog.Dal.AssemblyInfoInputs.cache
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog.Dal\obj\Debug\netcoreapp1.0\DotNetBlog.Dal.AssemblyInfo.cs
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog.Dal\obj\Debug\netcoreapp1.0\DotNetBlog.Dal.dll
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog.Dal\obj\Debug\netcoreapp1.0\DotNetBlog.Dal.pdb

@@ -10944,11 +10944,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hank\\source\\repos\\OldProjects\\DotNetCoreBlog\\DotNetBlog.Web\\DotNetBlog.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Hank\\Documents\\GitHub\\DotNetCoreBlog\\DotNetBlog.Web\\DotNetBlog.Web.csproj",
       "projectName": "DotNetBlog.Web",
-      "projectPath": "C:\\Users\\Hank\\source\\repos\\OldProjects\\DotNetCoreBlog\\DotNetBlog.Web\\DotNetBlog.Web.csproj",
+      "projectPath": "C:\\Users\\Hank\\Documents\\GitHub\\DotNetCoreBlog\\DotNetBlog.Web\\DotNetBlog.Web.csproj",
       "packagesPath": "C:\\Users\\Hank\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hank\\source\\repos\\OldProjects\\DotNetCoreBlog\\DotNetBlog.Web\\obj\\",
+      "outputPath": "C:\\Users\\Hank\\Documents\\GitHub\\DotNetCoreBlog\\DotNetBlog.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hank\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10965,11 +10965,11 @@
       "frameworks": {
         "netcoreapp1.0": {
           "projectReferences": {
-            "C:\\Users\\Hank\\source\\repos\\OldProjects\\DotNetCoreBlog\\DotNetBlog,Model\\DotNetBlog.Model.csproj": {
-              "projectPath": "C:\\Users\\Hank\\source\\repos\\OldProjects\\DotNetCoreBlog\\DotNetBlog,Model\\DotNetBlog.Model.csproj"
+            "C:\\Users\\Hank\\Documents\\GitHub\\DotNetCoreBlog\\DotNetBlog,Model\\DotNetBlog.Model.csproj": {
+              "projectPath": "C:\\Users\\Hank\\Documents\\GitHub\\DotNetCoreBlog\\DotNetBlog,Model\\DotNetBlog.Model.csproj"
             },
-            "C:\\Users\\Hank\\source\\repos\\OldProjects\\DotNetCoreBlog\\DotNetBlog.Dal\\DotNetBlog.Dal.csproj": {
-              "projectPath": "C:\\Users\\Hank\\source\\repos\\OldProjects\\DotNetCoreBlog\\DotNetBlog.Dal\\DotNetBlog.Dal.csproj"
+            "C:\\Users\\Hank\\Documents\\GitHub\\DotNetCoreBlog\\DotNetBlog.Dal\\DotNetBlog.Dal.csproj": {
+              "projectPath": "C:\\Users\\Hank\\Documents\\GitHub\\DotNetCoreBlog\\DotNetBlog.Dal\\DotNetBlog.Dal.csproj"
             }
           }
         }

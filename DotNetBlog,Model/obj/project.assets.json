@@ -6719,11 +6719,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hank\\source\\repos\\OldProjects\\DotNetCoreBlog\\DotNetBlog,Model\\DotNetBlog.Model.csproj",
+      "projectUniqueName": "C:\\Users\\Hank\\Documents\\GitHub\\DotNetCoreBlog\\DotNetBlog,Model\\DotNetBlog.Model.csproj",
       "projectName": "DotNetBlog.Model",
-      "projectPath": "C:\\Users\\Hank\\source\\repos\\OldProjects\\DotNetCoreBlog\\DotNetBlog,Model\\DotNetBlog.Model.csproj",
+      "projectPath": "C:\\Users\\Hank\\Documents\\GitHub\\DotNetCoreBlog\\DotNetBlog,Model\\DotNetBlog.Model.csproj",
       "packagesPath": "C:\\Users\\Hank\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hank\\source\\repos\\OldProjects\\DotNetCoreBlog\\DotNetBlog,Model\\obj\\",
+      "outputPath": "C:\\Users\\Hank\\Documents\\GitHub\\DotNetCoreBlog\\DotNetBlog,Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hank\\AppData\\Roaming\\NuGet\\NuGet.Config",

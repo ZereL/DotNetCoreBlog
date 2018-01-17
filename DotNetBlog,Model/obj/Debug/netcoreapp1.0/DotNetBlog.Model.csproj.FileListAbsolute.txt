@@ -6,3 +6,12 @@ C:\Users\Hank\source\repos\DotNetCoreBlog\DotNetBlog,Model\obj\Debug\netcoreapp1
 C:\Users\Hank\source\repos\DotNetCoreBlog\DotNetBlog,Model\obj\Debug\netcoreapp1.0\DotNetBlog.Model.AssemblyInfo.cs
 C:\Users\Hank\source\repos\DotNetCoreBlog\DotNetBlog,Model\obj\Debug\netcoreapp1.0\DotNetBlog.Model.dll
 C:\Users\Hank\source\repos\DotNetCoreBlog\DotNetBlog,Model\obj\Debug\netcoreapp1.0\DotNetBlog.Model.pdb
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog,Model\bin\Debug\netcoreapp1.0\DotNetBlog.Model.deps.json
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog,Model\bin\Debug\netcoreapp1.0\DotNetBlog.Model.dll
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog,Model\bin\Debug\netcoreapp1.0\DotNetBlog.Model.pdb
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog,Model\obj\Debug\netcoreapp1.0\DotNetBlog.Model.csprojResolveAssemblyReference.cache
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog,Model\obj\Debug\netcoreapp1.0\DotNetBlog.Model.csproj.CoreCompileInputs.cache
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog,Model\obj\Debug\netcoreapp1.0\DotNetBlog.Model.AssemblyInfoInputs.cache
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog,Model\obj\Debug\netcoreapp1.0\DotNetBlog.Model.AssemblyInfo.cs
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog,Model\obj\Debug\netcoreapp1.0\DotNetBlog.Model.dll
+C:\Users\Hank\Documents\GitHub\DotNetCoreBlog\DotNetBlog,Model\obj\Debug\netcoreapp1.0\DotNetBlog.Model.pdb
